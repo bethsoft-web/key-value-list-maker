@@ -89,7 +89,7 @@ const Field = (props: FieldProps) => {
                                 <TextField
                                     id="key"
                                     name="key"
-                                    labelText="Item Name"
+                                    labelText="Microcopy Key"
                                     value={item.key}
                                     onChange={createOnChangeHandler(item, 'key')}
                                 />
