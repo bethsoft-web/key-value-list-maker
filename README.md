@@ -63,7 +63,7 @@ Before running the app locally, you will need to do 2 things:
 * Ensure your Contentful user is admin or developer for the organization.
 * Create an [`AppDefinition`](https://www.contentful.com/developers/docs/extensibility/app-framework/app-definition/)
 in your organization with the following properties:
-    * The App URL: http://localhost:3000
+    * The App URL: http://localhost:3001
     * An entry field location with a type of JSON Object
     * An instance parameter of type short text with the id `valueName`
 
@@ -73,7 +73,7 @@ If you are using the UI to create the `AppDefinition`, it should look like this:
 
 
 Once your app definition is created, running `npm start` will start a local server on
-port 3000 (http://localhost:3000).
+port 3000 (http://localhost:3001).
 
 You must create or modify a content type which has a JSON field in order to see the app
 inside of the Contentful web app.
